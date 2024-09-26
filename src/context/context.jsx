@@ -29,7 +29,7 @@ const ContextProvider = (props) => {
 
   const onSent = async (prompt) => {
     setResult("");
-    setLoading(true);
+    setLoading(false);
     setShowResult(true);
 
     const query = prompt || input; // Use the input if prompt is undefined or empty
