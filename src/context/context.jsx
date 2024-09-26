@@ -20,7 +20,7 @@ const ContextProvider = (props) => {
   const newChat = () => {
     setInput("");
     setShowResult(false);
-    setLoading(false);
+    setLoading(true);
     setResult("");
   }
   const promptPaddy =() => {
